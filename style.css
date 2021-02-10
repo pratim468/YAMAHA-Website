@@ -1,0 +1,470 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h2
+{
+	text-align: center;
+	color: white!important;
+	padding-bottom: 10px;
+}
+
+h2::after
+{
+	content: '';
+	background: #007bff;
+	display: block;
+	height: 3px;
+	width: 130px;
+	margin: 20px auto 5px;
+}
+
+.nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar-brand img
+{
+	height: 40px;
+	padding-left:30px;
+}
+.navbar-nav li
+{
+	padding: 10px;
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+#navbarNav ul li a:hover
+{
+	color: grey !important;
+}
+.navbar
+{
+	background: black;
+}
+.navbar-toggler{
+	border: none!important;
+}
+.nav-link
+{
+	color: white !important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+
+
+/*<!------------------------------------------Yamaha Welcome--------------------------------->*/
+
+.yamaha
+{
+	padding: 120px;
+
+}
+#more {display: none;}
+
+/*<---------------------------------------Transparent PIcture------------------------------------->*/
+#picture
+{   
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+
+}
+
+/*--------------------------------------Bike Categories----------------------------------------->*/
+
+#about
+{
+	color: #555;
+	
+}
+#about .btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.progress
+{
+	border-radius: 16px !important;
+	height: 20px;
+	margin-bottom: 10px;
+}
+.progress-bar
+{
+	border-radius: 16px;
+}
+
+.tab h3
+{
+	color: white;
+}
+.bike1
+{
+	box-shadow: 0 0 15px 5px rgba(0,0,0,10);
+}
+.bike1:hover
+{
+	box-shadow: 0 0 15px 5px grey;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+
+
+
+
+
+                  /*------------------------Riders Slider------------------------* 
+#testimonial
+{
+	padding-top:50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+#testimonial .row
+{
+	margin-top: 20px;
+}
+.col-md-4
+{
+	margin: 30px auto;
+}
+.Profile
+{
+	padding: 70px 10px 10px;
+	background-color: #efefef;
+}
+.user
+{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+.Profile img
+{
+	top: -60px;
+	position: absolute;
+	left: calc(54% - 66px);
+	border:10px solid #fff;
+}
+.Profile h4
+{
+	font-size: 20px;
+	margin-top: 15px;
+	color: #007bff;
+}
+#testimonial span
+{
+	font-size: 12px;
+	color: #333;
+}
+blockquote
+{
+	font-size: 16px;
+	line-height: 30px;
+}
+blockquote::before
+{
+	content: '\93';
+	font-size: 50px;
+	color: #007bff;
+	position: relative;
+	line-height: 20px;
+	bottom: -15px;
+	right: 5px;
+}
+blockquote::after
+{
+	content: '\94';
+	font-size: 50px;
+	color: #007bff;
+	position: relative;
+	line-height: 10px;
+	bottom: -15px;
+	left: 5px;
+}
+.Profile:hover
+{
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+	cursor: pointer;
+	transition: 0.5s;
+}
+.bl
+{
+	width: 100%;
+	height: 200px;
+	background: grey;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+/*--------------------------------------Transparent in Services---------------------------------------*/
+
+
+
+#services{   
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+
+}
+#services h2
+{
+	text-align: center;
+	color: #efefef !important;
+	padding-bottom: 10px;
+}
+#services h2::after
+{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 130px;
+	margin: 20px auto 5px;
+}
+.services
+{
+	margin-top: 30px;
+}
+
+#services p
+{
+	font-size: 14px;
+	margin-top: 20px;
+	color: white;
+}
+.services h3
+{
+
+	color: blue;
+}
+.services .col-md-3:hover{
+	background-color: #007bff;
+	cursor: pointer;
+	transition: 0.7s;
+}
+.icon
+{
+	font-size: 25px;
+	margin: 10px auto;
+	padding: 10px;
+	height: 65px;
+	width: 65px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*------------------------------------------------Yamaha CSS-----------------------------------------------------*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+body {
+    line-height: 24px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', 'Raleway', sans-serif;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before, .btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix:after, .dl-horizontal dd:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical>.btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .modal-footer:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before, .btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: white;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 1px;
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
+    background-color: silver;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3);
+    border-radius: 1px;
+}
+::selection {
+    background-color: #e6ae49;
+    color: #FFF;
+}
+
+
+
+
+/*-------------------------------------------Explore----------------------------------------------------*/
+
+
+.started {
+    border: 1px solid rgba(70, 140, 255, 1);
+    background: black;
+    height: 100px;
+    padding: 15px;
+}
+
+
+
+.discover {
+    background: #000;
+    padding: 25px 0;
+    margin: 40px 0;
+    margin-bottom: 8px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+/*----------------------------------------Main Footer----------------------------------------------------*/
+
+.container{
+	font-size: 15px;
+	color: white;
+}
+#services2{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(rayzr-street.jpg);      /*<<<<<<<<<<<<---------Transparent in Info---------*/ 
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#services2 h2
+{
+	text-align: center;
+	color: #efefef !important;
+	padding-bottom: 10px;
+}
+#services2 h2::after
+{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 130px;
+	margin: 20px auto 5px;
+}
+.services2
+{
+	margin-top: 30px;
+}
+.icon
+{
+	font-size: 25px;
+	margin: 10px auto;
+	padding: 10px;
+	height: 65px;
+	width: 65px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+#services2 p
+{
+	font-size: 14px;
+	margin-top: 20px;
+	color: #ccc;
+}
+.services2 .col-md-3:hover{
+	background-color: blue;
+	cursor: pointer;
+	transition: 0.7s;
+}
+.black-bg {
+    background: rgba(0, 0, 0, 1);
+    color: white;
+    position: relative;
+}
+.footer {
+    background: blackk url(---------------) repeat-x;
+    position: relative;
+    z-index: ;
+}
+.secondary-footer {
+    background: url(footer.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    line-height: 24px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', 'Raleway', sans-serif;
+    }
